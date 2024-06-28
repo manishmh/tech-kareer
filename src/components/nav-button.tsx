@@ -15,7 +15,7 @@ const NavButton: React.FC<NavButtonProps> = ({
   handleNavbarItems,
 }) => {
   return (
-    <Link href={label.toLowerCase()}>
+    <Link href={`/${label.toLowerCase()}`}>
       <button
         className={`flex gap-2 items-center py-2 px-4 rounded-full font-medium 
         ${
